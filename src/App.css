@@ -1,43 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: #36768c;
+  padding-top: 10px;
+}
 h2, h4{
   text-align: center;
+  color: white;
 }
 
 .container{
-  width: 100%;
+  margin: 10px 20px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0;
-  padding: 0;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 10px;
 
   .card{ 
     overflow: hidden;
-    height: 60vh;
+    height: 50vh;
     width: 100vw;
-    margin: 0;
-    padding: 0;
-  
-    padding-top: 0.5rem;
+    /* padding-top: 0.5rem; */
+    border-radius: 20px;
+    border: 8px solid antiquewhite;
+    position: relative;
+    
 
-    img{
-      width: 90%;
-      height: 50vh;
-      margin: 2% 5%;
-      border-radius: 5%;
+    .card-img{
+      width: 100%;
+      height: 100%;
       object-fit: cover;
 
-      /* position: relative; */
-      box-shadow: 2px 5px 15px black;
     }
-    img:hover{
+   .card-body{
+    
+   }
+    
+    /* img:hover{
       transform: scale(1.03);
+      cursor: pointer;
+    }
+    .overlay1,.overlay2, .overlay3, .overlay4, .overlay5{
+      position: absolute;
+      box-sizing: border-box;
+      background: rgba(194, 133, 20, 0.5);
+      color: whitesmoke;
+      font-size: larger;
+      margin: auto 6%;
+      width: 90%;
+      object-fit: cover;
+      border-radius:0 0 5% 5%;
+      text-align: center;
+      margin-top: -8.3rem;
+      overflow: hidden;
+    }
+    .card:hover, .overlay1, .overlay2, .overlay3, .overlay4, .overlay5{
+      transform: scale(1.03);
+      cursor: pointer;
 
-      outline: 2px solid #7B3B3B;
-    }
-    .overlay{
-      /* position: absolute */
-    }
+    } */
+/* .overlay1:hover{
+  transform: scale(1.03);
+cursor: pointer;
+} */
     }
 
 }
