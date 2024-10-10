@@ -15,7 +15,9 @@ function App() {
      <img src="https://www.ultimatekilimanjaro.com/wp-content/uploads/2023/08/elbrus.jpg" alt="mountain" className='card-img'/>
     <div className='card-body'>      
       <h5>Mountain Tops</h5>
-      <p>Best place to be for peaceful minds</p>
+      <p className='card-sub'>Best place to be for peaceful minds</p>
+      <p className='card-info'>blah blah blah</p>
+      <button className='card-btn'>Accept Challange</button>
     </div>
   </div>
   <div className='card'>
