@@ -17,7 +17,7 @@ function App() {
       <h5>Mountain Tops</h5>
       <p className='card-sub'>Best place to be for peaceful minds</p>
       <p className='card-info'>blah blah blah</p>
-      <button className='card-btn'>Accept Challange</button>
+      <button className='card-btn'>book now</button>
     </div>
   </div>
   <div className='card'>
